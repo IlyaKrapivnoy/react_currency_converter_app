@@ -59,6 +59,7 @@ function App() {
   return (
     <>
       <h1>Converter</h1>
+      <p>Here you can convert any amount of money for free</p>
       <CurrencyRow 
         currencyOptions={currencyOptions} 
         selectedCurrency={fromCurrency}
