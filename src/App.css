@@ -1,4 +1,5 @@
 body {
+  background: linear-gradient(#003973, #E5E5BE);
   margin: 0;
   display: flex;
   justify-content: center;
@@ -9,18 +10,28 @@ body {
 
 h1 {
   margin: 0;
-  margin-bottom: .5rem;
+  text-transform: uppercase;
+  color: #d8d8d8;
+  letter-spacing: 3px;
+  font-size: 52px;
+  margin-bottom: 40px;
 }
 
 .input {
   border: 1px solid #333;
-  border-radius: .3em;
+  border-radius: 5px;
   padding: .25rem;
-  width: 7em
+  width: 7em;
+  padding: 10px 20px;
+  border: none;
 }
 
 select {
   margin-left: .5rem;
+  border-radius: 5px;
+  background: skyblue;
+  padding: 10px 20px;
+  border: none;
 }
 
 .equals {
